@@ -2,19 +2,19 @@
  * @author taner on 2015-11-16.
  */
 public class Student {
-    public String university;
+    public String universityName;
     public String studentName;
-    public int age;
+    public int studentAge;
     public int studentId;
     public int penalty;
 
 
-    public String getUniversity() {
-        return university;
+    public String getUniversityName() {
+        return universityName;
     }
 
-    public void setUniversity(String university) {
-        this.university = university;
+    public void setUniversityName(String universityName) {
+        this.universityName = universityName;
     }
 
     public String getStudentName() {
@@ -25,12 +25,12 @@ public class Student {
         this.studentName = studentName;
     }
 
-    public int getAge() {
-        return age;
+    public int getStudentAge() {
+        return studentAge;
     }
 
-    public void setAge(int age) {
-        this.age = age;
+    public void setStudentAge(int studentAge) {
+        this.studentAge = studentAge;
     }
 
     public int getStudentId() {
@@ -57,7 +57,7 @@ public class Student {
         }
     }
     public boolean isMember(){
-        if(this.university=="Linneaeus University"){
+        if(this.universityName =="Linneaeus University"){
             return true;
         }else{
             return false;

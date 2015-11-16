@@ -3,7 +3,7 @@
  */
 public class Book {
     private Student student;
-    private String IBSN;
+    private String IBSNnumber;
     private String bookName;
 
     public Student getStudent() {
@@ -22,12 +22,12 @@ public class Book {
       }
     }
 
-    public String getIBSN() {
-        return IBSN;
+    public String getIBSNnumber() {
+        return IBSNnumber;
     }
 
-    public void setIBSN(String IBSN) {
-        this.IBSN = IBSN;
+    public void setIBSNnumber(String IBSNnumber) {
+        this.IBSNnumber = IBSNnumber;
     }
 
     public String getBookName() {
